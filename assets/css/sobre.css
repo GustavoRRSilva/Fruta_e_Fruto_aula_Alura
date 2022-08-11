@@ -1,0 +1,14 @@
+.sobre__titulo{
+    color:#8D0606;
+    font-family: Pacifico, cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+.sobre__descricao{
+    color:#8C8888;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+}
