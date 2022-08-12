@@ -24,3 +24,21 @@
     display: flex;
     justify-content: space-between;
 }
+@media screen and (min-width:0px) {
+    .cabecalho{
+        padding: 0 1rem;
+        justify-content: center;
+    }
+    .logo{
+        display: none;
+    }
+}
+@media screen and (min-width:768px) {
+    .cabecalho{
+        justify-content: space-between;
+        padding: 0 5rem;
+    }
+    .logo{
+        display: block;
+    }
+}

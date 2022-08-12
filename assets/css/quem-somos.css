@@ -1,0 +1,54 @@
+.quem-somos{
+    text-align: center;
+    padding: 5rem;
+}
+.quem-somos__titulo{
+    color: #8D0606;
+    font-family: Pacifico,cursive;
+    margin-bottom: 1rem;
+    font-size: 3.1875rem;
+}
+.quem-somos__descricao{
+    color: #c3c3c3;
+    font-weight: 100;
+    font-size: 1.75rem;
+}
+.pessoas{
+    display: flex;
+    justify-content: space-around;
+}
+.pessoa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pessoa__nome{
+    margin: 1rem 0;
+    color: #8D0606;
+    font-family: Pacifico,cursive;
+    font-size: 2rem;
+}
+.pessoa__funcao{
+    color: #c9c9c9;
+    text-transform: lowercase;
+    font-size: 1.25rem;
+}
+.imagem__pessoas{
+    border-radius: 50%;
+}
+@media screen and (min-width:0px) {
+    .pessoas{
+        flex-direction: column;
+    }
+    .pessoa{
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (min-width:768px) {
+    .pessoas{
+        flex-direction: row;
+    }
+    .pessoa{
+        margin-bottom: 0;
+    }
+}
